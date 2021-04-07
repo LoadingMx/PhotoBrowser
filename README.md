@@ -111,6 +111,11 @@ pod 'JXPhotoBrowser', '~> 3.0'
 
 把本仓库下载到你本地，然后把`Sources`文件夹下的`JXPhotoBrowser`文件夹整个拖入Xcode，勾选拷贝文件选项即可，没有其它第三方依赖。
 
+### Carthage
+在 `Cartfile` 文件中添加如下依赖项目:
+```
+github "JiongXing/PhotoBrowser"
+```
 ## 使用方法
 
 > 以下代码取自项目Example例子工程，更详细完整的代码请打开例子工程查看，下文是其关键代码的讲解。
